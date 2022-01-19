@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="stm-openocd" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rust-stm" TARGET_NAME="Unnamed" CONFIG_NAME="Unnamed" version="1" RUN_PATH="$PROJECT_DIR$/target/thumbv7m-none-eabi/debug/rust-stm">
+    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\workspace\rust-stm\openocd.cfg" reset-type="INIT" download-type="NONE">
+      <debugger kind="GDB">C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gdb.exe</debugger>
+    </openocd>
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="flash" run_configuration_type="CargoCommandRunConfiguration" />
+    </method>
+  </configuration>
+</component>
